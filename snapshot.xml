@@ -82,7 +82,7 @@
   <project name="chromiumos/infra/proto" path="infra/proto" revision="e399bd98a1b885b6ef26682c40c47ebf4d1211c4" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="tot" />
   </project>
-  <project name="chromiumos/infra/recipes" path="infra/recipes" revision="0e5c061f20afaaec61b6bcdddfb9b390ffb45373" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
+  <project name="chromiumos/infra/recipes" path="infra/recipes" revision="86d9a8df5ad3c1bc0398553f1ef52acc4fc9fec2" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
     <annotation name="branch-mode" value="drop" />
   </project>
   <project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="6b315ff614aedfbeb74b0da5b72c379c4dc3128f" upstream="refs/heads/main" dest-branch="refs/heads/main">
@@ -94,7 +94,7 @@
   <project name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="ff172ec8a3dab94323414de086456b19f8bdcb19" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,chromeos-admin,devserver,labtools,sysmon" />
   <project name="chromiumos/manifest" path="manifest" revision="2f3d39b0b290a7948a66cab0641cc99a517d7fa2" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="82fb24f0543ed5da06d0fc5806155df7792748fe" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="234d71ff9ecf2b04f55e381fca9000c3181bc705" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="11d3c1919850eb6573709fc3cc57db29976a28b7" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="c7e7ec611c9eb12c26ef795cc442eca92fa659d6" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="576775fe70565fafb9ca8875b936a9145ccf4414" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="47370dcdc53be154695bfe871fb82a7fee6f61d6" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -219,7 +219,7 @@
   <project name="chromiumos/third_party/edk2" path="src/third_party/amd-fsp/cezanne-edk2" revision="71a390aeb21c9eebf64f49640a23e2c54738e448" upstream="refs/heads/chromeos-czn" dest-branch="refs/heads/chromeos-czn" groups="firmware" />
   <project name="chromiumos/third_party/edk2" path="src/third_party/amd-fsp/mendocino-edk2" revision="6ae0c22b1752ace8dc1f20d1c2652844be29b369" upstream="refs/heads/chromeos-mdn" dest-branch="refs/heads/chromeos-mdn" groups="firmware" />
   <project name="chromiumos/third_party/edk2" path="src/third_party/amd-fsp/phoenix-edk2" revision="bd02232e63865b816f62f5f5ba5c4834799d092c" upstream="refs/heads/chromeos-phx" dest-branch="refs/heads/chromeos-phx" groups="firmware" />
-  <project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="b3a130435337417d827cc1d4ef0eb331c484158f" upstream="refs/heads/chromeos-v202308" dest-branch="refs/heads/chromeos-v202308" groups="firmware,fwsdk" />
+  <project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="73c74576c0c07bb1fe2dd78605ce8d53b1e82ccb" upstream="refs/heads/chromeos-v202308" dest-branch="refs/heads/chromeos-v202308" groups="firmware,fwsdk" />
   <project name="chromiumos/third_party/edk2" path="src/third_party/fsp/cnl/edk2" revision="995dede2362e4947c91f631069444552a1d2eeff" upstream="refs/heads/chromeos-cnl" dest-branch="refs/heads/chromeos-cnl" groups="firmware" />
   <project name="chromiumos/third_party/edk2" path="src/third_party/fsp/glk/edk2" revision="f84e90881271300af73761bbd6a6fa8b8f82c266" upstream="refs/heads/chromeos-glk" dest-branch="refs/heads/chromeos-glk" groups="firmware" />
   <project name="chromiumos/third_party/fastrpc" path="src/third_party/fastrpc" revision="c2d1cdc0fb781ee673077c5d4b243eb239c73bb5" upstream="refs/heads/master" dest-branch="refs/heads/master" />
