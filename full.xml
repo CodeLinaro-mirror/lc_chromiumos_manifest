@@ -252,8 +252,8 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
            groups="firmware">
     <annotation name="branch-mode" value="pin" />
   </project>
-  <project path="src/platform/release-firmware/fpmcu-bloonchipper/zephyr"
-           name="chromiumos/third_party/zephyr"
+  <project path="src/platform/release-firmware/fpmcu-bloonchipper/zephyrproject"
+           name="chromiumos/third_party/zephyrproject"
            revision="refs/heads/firmware-fpmcu-bloonchipper-release"
            groups="firmware,zephyr">
     <annotation name="branch-mode" value="pin" />
@@ -270,8 +270,8 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
            groups="firmware">
     <annotation name="branch-mode" value="pin" />
   </project>
-  <project path="src/platform/release-firmware/fpmcu-helipilot/zephyr"
-           name="chromiumos/third_party/zephyr"
+  <project path="src/platform/release-firmware/fpmcu-helipilot/zephyrproject"
+           name="chromiumos/third_party/zephyrproject"
            revision="refs/heads/firmware-fpmcu-helipilot-release"
            groups="firmware,zephyr">
     <annotation name="branch-mode" value="pin" />
@@ -740,31 +740,6 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
   <project path="src/third_party/wpa_supplicant-cros/next"
            name="chromiumos/third_party/hostap"
            revision="refs/heads/wpa_supplicant-2.10.0" />
-  <project path="src/third_party/zephyr/cmsis"
-           name="chromiumos/third_party/zephyr/cmsis"
-           revision="refs/heads/chromeos-main"
-           groups="firmware,zephyr,fwsdk" />
-  <project path="src/third_party/zephyr/cmsis_6"
-           name="chromiumos/third_party/zephyr/cmsis_6"
-           revision="refs/heads/chromeos-main"
-           groups="firmware,zephyr,fwsdk" />
-  <!-- TODO: Rename to hal_intel after Feb 2024. b/295328143 -->
-  <project path="src/third_party/zephyr/hal_intel_public"
-           name="chromiumos/third_party/zephyr/hal_intel"
-           groups="firmware,zephyr,fwsdk" />
-  <project path="src/third_party/zephyr/hal_stm32"
-           name="chromiumos/third_party/zephyr/hal_stm32"
-           revision="refs/heads/chromeos-main"
-           groups="firmware,zephyr,fwsdk" />
-  <project path="src/third_party/zephyr/main"
-           name="chromiumos/third_party/zephyr"
-           groups="firmware,zephyr,fwsdk" />
-  <project path="src/third_party/zephyr/nanopb"
-           name="chromiumos/third_party/zephyr/nanopb"
-           groups="firmware,zephyr,fwsdk" />
-  <project path="src/third_party/zephyr/picolibc"
-           name="chromiumos/third_party/zephyr/picolibc"
-           groups="firmware,zephyr,fwsdk" />
   <project path="src/third_party/zephyrproject"
            name="chromiumos/third_party/zephyrproject"
            groups="firmware,zephyr,fwsdk" />
