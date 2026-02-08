@@ -91,7 +91,7 @@
   <project name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="ff172ec8a3dab94323414de086456b19f8bdcb19" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,chromeos-admin,devserver,labtools,sysmon" />
   <project name="chromiumos/manifest" path="manifest" revision="221adf4eda91c8833f7378e2be81bcc5bb9a5415" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="c94955634fd5f4d41f34fb41b7d5ba688533eff8" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="d65addfbda6cf09a3b78eac1685fcd2a52b72dcc" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="496e081fd47cfc5edbe9c20a47ce2bd3c997671b" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="c7e7ec611c9eb12c26ef795cc442eca92fa659d6" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="ee5ca1b5cdd9e94639a7f375211c3d28461ee541" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="f61a41f6a702e977f0307e62186163178d80bd49" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -326,7 +326,7 @@
   <project name="copybot" path="infra/copybot" revision="d4b32a3472f2f08ba26a0a74a8f202e84f706af7" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="drop" />
   </project>
-  <project name="external/github.com/bazelbuild/bazel-central-registry" path="bazel_deps/bazel-central-registry" revision="126cd3d699c2d9dab63c27ded074005e9cc6a7fc" upstream="refs/heads/upstream/main" dest-branch="refs/heads/upstream/main" groups="bazel,firmware,fwsdk,minilayout,ti50" />
+  <project name="external/github.com/bazelbuild/bazel-central-registry" path="bazel_deps/bazel-central-registry" revision="2edc7e852fd801e45d8b2092557d6a1756d49f49" upstream="refs/heads/upstream/main" dest-branch="refs/heads/upstream/main" groups="bazel,firmware,fwsdk,minilayout,ti50" />
   <project name="external/github.com/google/googletest" path="src/third_party/googletest" revision="6910c9d9165801d8827d628cb72eb7ea9dd538c5" upstream="refs/tags/v1.16.0" dest-branch="refs/tags/v1.16.0" groups="firmware" />
   <project name="external/github.com/google/gtest-parallel" path="src/third_party/gtest-parallel" revision="cd488bdedc1d2cffb98201a17afc1b298b0b90f1" groups="minilayout" />
   <project name="external/github.com/google/perfetto" path="src/third_party/perfetto" revision="b09ce807e1ed080d125ffa7da09750492ff3435d" />
