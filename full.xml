@@ -300,6 +300,18 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
            groups="firmware,zephyr">
     <annotation name="branch-mode" value="pin" />
   </project>
+  <project path="src/platform/release-firmware/fpmcu-niedzica/ec"
+           name="chromiumos/platform/ec"
+           revision="refs/heads/firmware-fpmcu-niedzica-release"
+           groups="firmware">
+    <annotation name="branch-mode" value="pin" />
+  </project>
+  <project path="src/platform/release-firmware/fpmcu-niedzica/zephyrproject"
+           name="chromiumos/third_party/zephyrproject"
+           revision="refs/heads/firmware-fpmcu-niedzica-release"
+           groups="firmware,zephyr">
+    <annotation name="branch-mode" value="pin" />
+  </project>
   <project path="src/platform/release-firmware/fpmcu-sanok/ec"
            name="chromiumos/platform/ec"
            revision="refs/heads/firmware-fpmcu-sanok-release"
