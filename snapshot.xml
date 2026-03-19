@@ -38,7 +38,7 @@
     <annotation name="branch-mode" value="pin" />
   </project>
   <project name="breakpad/breakpad" path="src/third_party/breakpad" revision="8be0e3114685fcc1589561067282edf75ea1259a" />
-  <project name="chromium/src/components/policy" path="src/chromium/src/components/policy" remote="chromium" revision="9dd52689517001118871bcb3711dc8a7813918e3" upstream="refs/heads/main" dest-branch="refs/heads/main" />
+  <project name="chromium/src/components/policy" path="src/chromium/src/components/policy" remote="chromium" revision="1186f2e3b19917d186c45496c96c06532b4ba4a2" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromium/src/media/midi" path="src/chromium/src/media/midi" remote="chromium" revision="994a857415f55e5c280e4f54645ba6d794c400f9" />
   <project name="chromium/src/net/tools/testserver" path="src/chromium/src/net/tools/testserver" remote="chromium" revision="4afe27fee76ed8451293415e43e9df404bc8da52" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromium/src/third_party/Python-Markdown" path="src/chromium/src/third_party/Python-Markdown" remote="chromium" revision="0f4473546172a64636f5d841410c564c0edad625" upstream="refs/heads/main" dest-branch="refs/heads/main" />
@@ -79,7 +79,7 @@
   <project name="chromiumos/infra/proto" path="infra/proto" revision="ba40eb401bc476ed6acfafab9e0549ff2c515bf3" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="tot" />
   </project>
-  <project name="chromiumos/infra/recipes" path="infra/recipes" revision="299f1ca10f2ac4f5820266a254021335dd163f3b" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
+  <project name="chromiumos/infra/recipes" path="infra/recipes" revision="cdafd79cf5e53d3176073c68d99a4345eb98a220" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
     <annotation name="branch-mode" value="drop" />
   </project>
   <project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="6b315ff614aedfbeb74b0da5b72c379c4dc3128f" upstream="refs/heads/main" dest-branch="refs/heads/main">
@@ -91,7 +91,7 @@
   <project name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="ff172ec8a3dab94323414de086456b19f8bdcb19" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,chromeos-admin,devserver,labtools,sysmon" />
   <project name="chromiumos/manifest" path="manifest" revision="15622e7691eeca796c909bcf48f2cc7506a0c683" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="2c71dced6845559b149295b258d0fc253a828ff1" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="f099c9df69d649017106c5d93d23421205ab7bde" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="4a98d0ed627effe2a7c2c2bc5978923a573b8fdf" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="c7e7ec611c9eb12c26ef795cc442eca92fa659d6" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="d58f51e3a45c5ecb1d394deb77848984d9768b64" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="9c22634d3b721b1ec8d7d5781c1e848c5c1b606b" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -205,7 +205,7 @@
   <project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="e1ad560b4dcef8e1bf96eee5b1de19dcd75b3169" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/xolabs-common-core" path="src/platform/xolabs-common-core" revision="dc19b3d256fb2ee6bf252eaaaf535323d34796da" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="notdefault,xolabs" />
   <project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="979fc788d118a91f86cd6c7d10b5ccd93ac9c3c2" upstream="refs/heads/main" dest-branch="refs/heads/main" />
-  <project name="chromiumos/platform2" path="src/platform2" revision="c7e9bb8729916d9caf48bac8021ea5717da3b655" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="config,crosvm,minilayout,partner-config,paygen" />
+  <project name="chromiumos/platform2" path="src/platform2" revision="6f5266c17143521d9291b4cd5fe7929c1f0241e4" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="config,crosvm,minilayout,partner-config,paygen" />
   <project name="chromiumos/project" path="src/project_public" revision="45e028e5fe5d68cfd2acbd1ea2d38a121c986850" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="partner-config" />
   <project name="chromiumos/repohooks" path="src/repohooks" revision="bee90ee486a51b3cf3db4db3082f6ac4860d18fe" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,crosvm,firmware,fwsdk,labtools,minilayout,paygen,ti50" />
   <project name="chromiumos/third_party/OP-TEE/optee_os" path="src/third_party/optee_os" revision="e03e7a66dcf88c9831ae68a311a7102999977afa" upstream="refs/heads/master" dest-branch="refs/heads/master" />
@@ -359,10 +359,10 @@
     <annotation name="branch-mode" value="pin" />
   </project>
   <project name="chromiumos/third_party/zephyrproject" path="src/third_party/zephyrproject" revision="070fdbd925aa84d1515fa4cd40787d0938182052" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk,zephyr" />
-  <project name="copybot" path="infra/copybot" revision="16bce917b3464664329537707e7414af1c5697f6" upstream="refs/heads/main" dest-branch="refs/heads/main">
+  <project name="copybot" path="infra/copybot" revision="2c6e861c03db2756a2207daaf68236d36a2ed0ed" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="drop" />
   </project>
-  <project name="external/github.com/bazelbuild/bazel-central-registry" path="bazel_deps/bazel-central-registry" revision="4f0819b8ae463780e6ee46f9a55bfb880d2d1329" upstream="refs/heads/upstream/main" dest-branch="refs/heads/upstream/main" groups="bazel,firmware,fwsdk,minilayout,ti50" />
+  <project name="external/github.com/bazelbuild/bazel-central-registry" path="bazel_deps/bazel-central-registry" revision="dd52152ffdbf8a63e5dfd9abfc8b8c5f893d9fa7" upstream="refs/heads/upstream/main" dest-branch="refs/heads/upstream/main" groups="bazel,firmware,fwsdk,minilayout,ti50" />
   <project name="external/github.com/google/googletest" path="src/third_party/googletest" revision="6910c9d9165801d8827d628cb72eb7ea9dd538c5" upstream="refs/tags/v1.16.0" dest-branch="refs/tags/v1.16.0" groups="firmware" />
   <project name="external/github.com/google/gtest-parallel" path="src/third_party/gtest-parallel" revision="cd488bdedc1d2cffb98201a17afc1b298b0b90f1" groups="minilayout" />
   <project name="external/github.com/google/perfetto" path="src/third_party/perfetto" revision="ca4508e8f261cdaf3d5b48c9381a504b99b2669a" />
