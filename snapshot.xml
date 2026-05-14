@@ -57,7 +57,7 @@
   <project name="chromiumos/chromite" path="infra/chromite-HEAD" revision="c488b54c2245d6cfad26acdf911f6bf7d20c2c1a" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,paygen">
     <annotation name="branch-mode" value="tot" />
   </project>
-  <project name="chromiumos/config" path="src/config" revision="c1c52aaf7b0dcfc178201ad2a29e0506db4c6b82" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="config,partner-config,paygen" />
+  <project name="chromiumos/config" path="src/config" revision="819d50c1698571eccdacd646a41eeeedb874ef37" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="config,partner-config,paygen" />
   <project name="chromiumos/containers/cros-container-guest-tools" path="src/platform/container-guest-tools" revision="072b588ae6b9ea8d05fde6b4795d0c2a32a060e4" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/graphyte" path="src/platform/graphyte" revision="f661990d0379f1030bdaa93c573ef4a50e9c6e66" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/infra/autotest-drone" path="infra/autotest-drone" revision="5f96d951c1e3d6145917efeef90ed555490afbdd" upstream="refs/heads/main" dest-branch="refs/heads/main">
@@ -79,7 +79,7 @@
   <project name="chromiumos/infra/proto" path="infra/proto" revision="33d5d3763879ea1a5812007512879c5a53003527" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="tot" />
   </project>
-  <project name="chromiumos/infra/recipes" path="infra/recipes" revision="6c585e4ff624840f1e48387283c738cc44676ced" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
+  <project name="chromiumos/infra/recipes" path="infra/recipes" revision="baad22f79e911a16406ba281865984ec8b4e15d8" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
     <annotation name="branch-mode" value="drop" />
   </project>
   <project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="6b315ff614aedfbeb74b0da5b72c379c4dc3128f" upstream="refs/heads/main" dest-branch="refs/heads/main">
@@ -91,7 +91,7 @@
   <project name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="ff172ec8a3dab94323414de086456b19f8bdcb19" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,chromeos-admin,devserver,labtools,sysmon" />
   <project name="chromiumos/manifest" path="manifest" revision="4527cf31e42c485e66328588c412ade6efe9350d" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="892e9b37c9e5a26b1c52fce097ed1d6e8532c5b0" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="c223fdd22aa1d1f0c5b9496cf8a1978d392b97dd" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="fc585446ab32deb31c0bf158070499f3b0cce9f3" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="c7e7ec611c9eb12c26ef795cc442eca92fa659d6" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="9bedccd8dce43c124bb04471b3ee761e095211db" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="1ab5dbbd4829df4cbb8ec71994f4060394e65c5c" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -224,7 +224,7 @@
   <project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="firmware" />
   <project name="chromiumos/third_party/clspv" path="src/third_party/clspv" revision="ea7c3cd2b0e004f52c2135cc850e684a92ca4cb1" />
   <project name="chromiumos/third_party/clvk" path="src/third_party/clvk" revision="6f1494a0044d455da3170a01f626bfe1ae99535b" />
-  <project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="da443d907f2668df5d80dd959a4e592ae7f95007" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk" />
+  <project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="9dfa6bb4474affe01435b7b0ff6f0cafea0732eb" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk" />
   <project name="chromiumos/third_party/cros-adapta" path="src/third_party/cros-adapta" revision="fe8ed49919cd9f6ce0efe86813a388d90e7314b6" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="chromiumos/third_party/cryptoc" path="src/third_party/cryptoc" revision="0dd679081b9c8bfa2583d74e3a17a413709ea362" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk" />
   <project name="chromiumos/third_party/cups" path="src/third_party/cups" revision="ec0ac48348a68a56ab3e4365c1c710fcdf2f267c" upstream="refs/heads/chromeos-2.4" dest-branch="refs/heads/chromeos-2.4" />
@@ -332,7 +332,7 @@
   <project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="df20849245aecd1520efa313966f1d04cd59115d" upstream="refs/heads/chromeos-0.3.13" dest-branch="refs/heads/chromeos-0.3.13" />
   <project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="c1b48d8324356486bba2a3325e5e607b9a4e987c" upstream="refs/heads/chromeos-v2023.10-next" dest-branch="refs/heads/chromeos-v2023.10-next" groups="fwsdk" />
   <project name="chromiumos/third_party/upstart" path="src/third_party/upstart" revision="3c805d6640042f1d657ba3036720d2948d7bdd0c" upstream="refs/heads/chromeos-1.13" dest-branch="refs/heads/chromeos-1.13" />
-  <project name="chromiumos/third_party/virglrenderer" path="src/third_party/virglrenderer" revision="ea7db39433c40e9799f2dfdbf63e0b4754a0dd3d" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="crosvm" />
+  <project name="chromiumos/third_party/virglrenderer" path="src/third_party/virglrenderer" revision="cfda42ba9b96c3a2d55f8cdb8685e8bbe81ab172" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="crosvm" />
   <project name="chromiumos/third_party/virtual-usb-printer" path="src/third_party/virtual-usb-printer" revision="ab7d4776a61e945cf9ed97c763d667e1b113ef42" upstream="refs/heads/virtual-printer" dest-branch="refs/heads/virtual-printer" />
   <project name="chromiumos/third_party/webrtc-apm" path="src/third_party/webrtc-apm" revision="08f235eba0c247f8929045adb090d0b0445cf8ea" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/third_party/zephyrproject" path="src/platform/release-firmware/fpmcu-bloonchipper/zephyrproject" revision="9a5fde56f958be84931b6c17e697b0370f1f2374" upstream="refs/heads/firmware-fpmcu-bloonchipper-release" dest-branch="refs/heads/firmware-fpmcu-bloonchipper-release" groups="firmware,zephyr">
