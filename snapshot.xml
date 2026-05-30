@@ -91,7 +91,7 @@
   <project name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="7737a04a1fc1d9131b87ad88b47b272f18ca17e4" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,chromeos-admin,devserver,labtools,sysmon" />
   <project name="chromiumos/manifest" path="manifest" revision="e3159f789aa24230fa11daa8dd34d880987ae4a1" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="dc8cfb96d3acea1e918ffbc98e44c111190bde09" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="ee4f1585736564feda7bcbf8d071842aaaad2785" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="f52f2dd4ce6a1273fa748217da14e46e5be43c3d" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="c7e7ec611c9eb12c26ef795cc442eca92fa659d6" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="f11b54da1eb3f0a18eec88d7ecf729ec8556372f" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="4b4f4b96edb3cc406857c0f3d2149f00a281fd46" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -130,7 +130,7 @@
   <project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-chobienia/ec" revision="558cd9c4d8e66ae0a254861af38c5cfe23f3edc3" upstream="refs/heads/firmware-fpmcu-chobienia-release" dest-branch="refs/heads/firmware-fpmcu-chobienia-release" groups="firmware">
     <annotation name="branch-mode" value="pin" />
   </project>
-  <project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-chudow/ec" revision="05e8821d9ac7d7fe00f3c3c07db53460dd8dde45" upstream="refs/heads/firmware-fpmcu-chudow-release" dest-branch="refs/heads/firmware-fpmcu-chudow-release" groups="firmware">
+  <project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-chudow/ec" revision="86ff6fd1dbe3048616f33bd8c247d9a7ba31d6b3" upstream="refs/heads/firmware-fpmcu-chudow-release" dest-branch="refs/heads/firmware-fpmcu-chudow-release" groups="firmware">
     <annotation name="branch-mode" value="pin" />
   </project>
   <project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-dartmonkey/ec" revision="1ca5689343614252a6da5a17a719e8673d7f2f6a" upstream="refs/heads/firmware-fpmcu-dartmonkey-release" dest-branch="refs/heads/firmware-fpmcu-dartmonkey-release" groups="firmware">
@@ -142,7 +142,7 @@
   <project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-niedzica/ec" revision="ee8419d7ccfccb1b147f300575bc61cb41d19ce1" upstream="refs/heads/firmware-fpmcu-niedzica-release" dest-branch="refs/heads/firmware-fpmcu-niedzica-release" groups="firmware">
     <annotation name="branch-mode" value="pin" />
   </project>
-  <project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-sanok/ec" revision="31a4a014b16eef3aa4a7f25b7285721342fe4264" upstream="refs/heads/firmware-fpmcu-sanok-release" dest-branch="refs/heads/firmware-fpmcu-sanok-release" groups="firmware">
+  <project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-sanok/ec" revision="4cf867f3b35d543191ddafe53580a8d77ebe587a" upstream="refs/heads/firmware-fpmcu-sanok-release" dest-branch="refs/heads/firmware-fpmcu-sanok-release" groups="firmware">
     <annotation name="branch-mode" value="pin" />
   </project>
   <project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-srebrna/ec" revision="63ae23f56ea797d39b53dc45d15ff893a910f656" upstream="refs/heads/firmware-fpmcu-srebrna-release" dest-branch="refs/heads/firmware-fpmcu-srebrna-release" groups="firmware">
@@ -341,7 +341,7 @@
   <project name="chromiumos/third_party/zephyrproject" path="src/platform/release-firmware/fpmcu-chobienia/zephyrproject" revision="41f9bb9cf8f27599ce4fb048bb6e32512f7780ac" upstream="refs/heads/firmware-fpmcu-chobienia-release" dest-branch="refs/heads/firmware-fpmcu-chobienia-release" groups="firmware,zephyr">
     <annotation name="branch-mode" value="pin" />
   </project>
-  <project name="chromiumos/third_party/zephyrproject" path="src/platform/release-firmware/fpmcu-chudow/zephyrproject" revision="5c212e2def70f669856baaf34b4e89668e834825" upstream="refs/heads/firmware-fpmcu-chudow-release" dest-branch="refs/heads/firmware-fpmcu-chudow-release" groups="firmware,zephyr">
+  <project name="chromiumos/third_party/zephyrproject" path="src/platform/release-firmware/fpmcu-chudow/zephyrproject" revision="98dfcb0ee81864074f3339f12a512ec95bd767e1" upstream="refs/heads/firmware-fpmcu-chudow-release" dest-branch="refs/heads/firmware-fpmcu-chudow-release" groups="firmware,zephyr">
     <annotation name="branch-mode" value="pin" />
   </project>
   <project name="chromiumos/third_party/zephyrproject" path="src/platform/release-firmware/fpmcu-helipilot/zephyrproject" revision="d6d9bcf9d2d9120765b42bfe2fdadf4a5c6e710d" upstream="refs/heads/firmware-fpmcu-helipilot-release" dest-branch="refs/heads/firmware-fpmcu-helipilot-release" groups="firmware,zephyr">
@@ -350,7 +350,7 @@
   <project name="chromiumos/third_party/zephyrproject" path="src/platform/release-firmware/fpmcu-niedzica/zephyrproject" revision="1a69480f40114ab44c81f228f6ce5021825ddc0a" upstream="refs/heads/firmware-fpmcu-niedzica-release" dest-branch="refs/heads/firmware-fpmcu-niedzica-release" groups="firmware,zephyr">
     <annotation name="branch-mode" value="pin" />
   </project>
-  <project name="chromiumos/third_party/zephyrproject" path="src/platform/release-firmware/fpmcu-sanok/zephyrproject" revision="851af9de8d7329e29aa273439dd07ba13f63d8de" upstream="refs/heads/firmware-fpmcu-sanok-release" dest-branch="refs/heads/firmware-fpmcu-sanok-release" groups="firmware,zephyr">
+  <project name="chromiumos/third_party/zephyrproject" path="src/platform/release-firmware/fpmcu-sanok/zephyrproject" revision="00a3927e20c09d6617e34a650200f92e23733c9a" upstream="refs/heads/firmware-fpmcu-sanok-release" dest-branch="refs/heads/firmware-fpmcu-sanok-release" groups="firmware,zephyr">
     <annotation name="branch-mode" value="pin" />
   </project>
   <project name="chromiumos/third_party/zephyrproject" path="src/platform/release-firmware/fpmcu-srebrna/zephyrproject" revision="c5bb2979ec0c1efd527b7cc5a92923e41e751f41" upstream="refs/heads/firmware-fpmcu-srebrna-release" dest-branch="refs/heads/firmware-fpmcu-srebrna-release" groups="firmware,zephyr">
