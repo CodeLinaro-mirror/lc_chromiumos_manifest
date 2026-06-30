@@ -92,8 +92,8 @@
     <annotation name="branch-mode" value="drop" />
   </project>
   <project name="chromiumos/manifest" path="manifest" revision="9ba4c2a23e60918a51da7e62e6195c7d4e9679b7" upstream="refs/heads/main" dest-branch="refs/heads/main" />
-  <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="11bd850c70d978d12e73b133ec0dfa5516c5a18f" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="fdaad8540c9fd35808bc078366edd6d63cb00675" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="8198270f61270380ecafa3d577b768e52639aa70" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="2ba75c806f738c1a3e8a700549126380455298fa" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="1bd4cd2284b823478d6a19e3e58efa876af4b577" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="9fdd41515f1e52586e71efb6b10d0c797ce369ca" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="29e5833272390996440a8f3365a298aa07d99344" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -266,7 +266,7 @@
   <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.1" revision="401525bdb1682ec39ad7500ed1de541d2e143b39" upstream="refs/heads/chromeos-6.1" dest-branch="refs/heads/chromeos-6.1" />
   <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.6" revision="a3d6aee9562569fb3f43befa8402cdb2c3e6c37a" upstream="refs/heads/chromeos-6.6" dest-branch="refs/heads/chromeos-6.6" />
   <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.10-enablement" revision="58bf52ffd7384e98a7ab6d6ba2a2557f5161e4d1" upstream="refs/heads/merge/continuous/chromeos-6.10-enablement" dest-branch="refs/heads/merge/continuous/chromeos-6.10-enablement" />
-  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.12" revision="e91c649615e82c3a8847e521cdf85728b4ab9b77" upstream="refs/heads/chromeos-6.12" dest-branch="refs/heads/chromeos-6.12" />
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.12" revision="5a26559841ce110e8ab6f0ed597f14caacc82b54" upstream="refs/heads/chromeos-6.12" dest-branch="refs/heads/chromeos-6.12" />
   <project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="87b865f44d94d1ee2d29a68eb26139d304708354" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="chromiumos/third_party/labpack" path="src/third_party/labpack/files" revision="0a614f09f19a1a4f3e432df93d0373516cd5914a" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="labtools" />
   <project name="chromiumos/third_party/lexmark-fax-pnh" path="src/third_party/lexmark-fax-pnh" revision="d80cce020cf6bd6c29c4008beeffd9635a82173d" upstream="refs/heads/master" dest-branch="refs/heads/master" />
@@ -374,7 +374,7 @@
   <project name="external/gitlab.com/libeigen/eigen" path="src/third_party/eigen3" revision="c18f94e3b017104284cd541e553472e62e85e526" groups="firmware" />
   <project name="external/gob/android/platform/system/chre" path="src/third_party/android/platform/system/chre" revision="a7bd96cdbd68aa46fc9525482761ca31c3e974b1" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware" />
   <project name="external/gob/boringssl/boringssl" path="src/third_party/boringssl" revision="3e89a7e8db8139db356b892ca9993172346c80cf" groups="firmware" />
-  <project name="infra/cop" revision="fa6ea81498e8e246023475e8d18467f36f6bad0b" upstream="refs/heads/main" dest-branch="refs/heads/main">
+  <project name="infra/cop" revision="30d08bb24afe30096c442541bc1946484fcee8fb" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="drop" />
   </project>
   <project name="linux-syscall-support" path="src/third_party/lss" revision="29164a80da4d41134950d76d55199ea33fbb9613" />
