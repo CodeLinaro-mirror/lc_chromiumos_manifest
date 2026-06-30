@@ -17,12 +17,12 @@
   <project name="aosp/platform/external/uwb" path="src/aosp/external/uwb/upstream" revision="ac502199f0ae0960baed4e43363bdfcee7e49c9b" upstream="refs/heads/upstream/master" dest-branch="refs/heads/upstream/master" />
   <project name="aosp/platform/frameworks/ml" path="src/aosp/frameworks/ml" revision="80fa8244419a4e847dc58afbb8208e0dbbb70180" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="aosp/platform/frameworks/native" path="src/aosp/frameworks/native" revision="5e9a89d06c41edf5cf43da8acf5f26ed104887e6" upstream="refs/heads/master" dest-branch="refs/heads/master" />
-  <project name="aosp/platform/frameworks/proto_logging" path="src/aosp/frameworks/proto_logging/local" revision="571771cc4700e5af37aaf5fbdd0a01192facf224" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="bazel,bluetooth,notdefault">
+  <project name="aosp/platform/frameworks/proto_logging" path="src/aosp/frameworks/proto_logging/local" revision="86bf745fa187f58a0da5e8894e107e31fd5ab4a6" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="bazel,bluetooth,notdefault">
     <annotation name="branch-mode" value="pin" />
   </project>
   <project name="aosp/platform/hardware/interfaces/neuralnetworks" path="src/aosp/hardware/interfaces/neuralnetworks" revision="84c38b6e3978ab7391ab1a2a696bfd4627401097" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="aosp/platform/hardware/nxp/uwb" path="src/aosp/hardware/nxp/uwb" revision="f8d6678bc1261194d25829450c4ccc623e4d820d" upstream="refs/heads/main" dest-branch="refs/heads/main" />
-  <project name="aosp/platform/packages/modules/Bluetooth" path="src/aosp/packages/modules/Bluetooth/local" revision="85ccfbdb4f09b90bc1d7171ac77c979e9b299e2e" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="bazel,bluetooth,notdefault" />
+  <project name="aosp/platform/packages/modules/Bluetooth" path="src/aosp/packages/modules/Bluetooth/local" revision="bb8dd8131ed10e05eb04459f537ffd17adbe4c75" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="bazel,bluetooth,notdefault" />
   <project name="aosp/platform/system/core/base" path="src/aosp/system/core/base" revision="8cf6479cfd925657da51da04902a68dfe7e84632" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="aosp/platform/system/core/libbacktrace" path="src/aosp/system/core/libbacktrace" revision="d67ee5af5ee2790631aa4f7ca125d12c09840436" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="aosp/platform/system/core/libcutils" path="src/aosp/system/core/libcutils" revision="7cd39fbb81b085d31550b1cefbcf2e20c34095b5" upstream="refs/heads/master" dest-branch="refs/heads/master" />
@@ -93,7 +93,7 @@
   </project>
   <project name="chromiumos/manifest" path="manifest" revision="9ba4c2a23e60918a51da7e62e6195c7d4e9679b7" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="8198270f61270380ecafa3d577b768e52639aa70" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="7f89b33676355e4a80d32ff41dd383a7045ed3db" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="927946f19c7590886b470db3b2dcb0b35627088e" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="1bd4cd2284b823478d6a19e3e58efa876af4b577" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="9fdd41515f1e52586e71efb6b10d0c797ce369ca" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="63c576f2d48be5d029f9d845541299d08ca300ca" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -266,7 +266,7 @@
   <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.1" revision="401525bdb1682ec39ad7500ed1de541d2e143b39" upstream="refs/heads/chromeos-6.1" dest-branch="refs/heads/chromeos-6.1" />
   <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.6" revision="bebef4526a6c159135421013e47e2b0d9a47fbdb" upstream="refs/heads/chromeos-6.6" dest-branch="refs/heads/chromeos-6.6" />
   <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.10-enablement" revision="58bf52ffd7384e98a7ab6d6ba2a2557f5161e4d1" upstream="refs/heads/merge/continuous/chromeos-6.10-enablement" dest-branch="refs/heads/merge/continuous/chromeos-6.10-enablement" />
-  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.12" revision="5a26559841ce110e8ab6f0ed597f14caacc82b54" upstream="refs/heads/chromeos-6.12" dest-branch="refs/heads/chromeos-6.12" />
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.12" revision="26be07364c569fe194debb271953108d6c868ed5" upstream="refs/heads/chromeos-6.12" dest-branch="refs/heads/chromeos-6.12" />
   <project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="87b865f44d94d1ee2d29a68eb26139d304708354" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="chromiumos/third_party/labpack" path="src/third_party/labpack/files" revision="0a614f09f19a1a4f3e432df93d0373516cd5914a" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="labtools" />
   <project name="chromiumos/third_party/lexmark-fax-pnh" path="src/third_party/lexmark-fax-pnh" revision="d80cce020cf6bd6c29c4008beeffd9635a82173d" upstream="refs/heads/master" dest-branch="refs/heads/master" />
@@ -314,7 +314,7 @@
   <project name="chromiumos/third_party/optofidelity_chromeos_touch_sender" path="src/third_party/optofidelity_chromeos_touch_sender" revision="092f19728405265a7dce2e1cf91b58f798eaa8b0" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="notdefault,touch-firmware-tests" />
   <project name="chromiumos/third_party/optofidelity_protocols" path="src/third_party/optofidelity_protocols" revision="a9231c68d311e5e0151133fba2ac3bcb9d8d55a2" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="notdefault,touch-firmware-tests" />
   <project name="chromiumos/third_party/pi-gen-btpeer" path="src/third_party/pi-gen-btpeer" revision="daa6313077922ce9d0d9d8a11a176b381f13797f" upstream="refs/heads/chromeos-btpeer" dest-branch="refs/heads/chromeos-btpeer" sync-c="true" />
-  <project name="chromiumos/third_party/pigweed/pigweed" path="src/third_party/pigweed" revision="f52745cb3e142116e89c25ae8a0a31e299f9ee70" upstream="refs/heads/main" dest-branch="refs/heads/main" />
+  <project name="chromiumos/third_party/pigweed/pigweed" path="src/third_party/pigweed" revision="2cf7b047dbd484b0b3cdf1773962947e84673cd2" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/third_party/poly-updater" path="src/third_party/poly-updater" revision="87ad2edeea039892515f68c948bc2b8f94999553" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/third_party/portage_tool" path="src/third_party/portage_tool" revision="f73989ad3f24cfa59329112f14ddf0172180c388" upstream="refs/heads/chromeos-2.3.75" dest-branch="refs/heads/chromeos-2.3.75" />
   <project name="chromiumos/third_party/pyelftools" path="src/third_party/pyelftools" revision="8047437615d66d3267ac0134834b80e70639d572" upstream="refs/heads/chromeos-0.22" dest-branch="refs/heads/chromeos-0.22" groups="buildtools,firmware,minilayout,paygen" />
