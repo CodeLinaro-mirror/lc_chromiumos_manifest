@@ -93,7 +93,7 @@
   </project>
   <project name="chromiumos/manifest" path="manifest" revision="066d350e37d698e7e2cf6bf1db4e1d048ff802dd" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="2f941ab3c8f5e988444eb5115050af9819bc242f" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="1c7932928b7a2ce4ba22cdf64d1b33fdcc4fc53f" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="878c05df2728b45149592c5128707217b5dbd863" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="1bd4cd2284b823478d6a19e3e58efa876af4b577" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="c676120619ac57be937ed006a4587a3690a6b213" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="be3f6b7eded4e97b1541a825abec802b28645277" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -121,7 +121,7 @@
   <project name="chromiumos/platform/dev-util" path="src/platform/dev" revision="9db7d1921d0cc34adfd6434812c20f55cf94e592" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,devserver,firmware,minilayout,paygen" />
   <project name="chromiumos/platform/dolos" path="src/platform/dolos" revision="fa5b6b2767e552672fb0da0c830837fb8f6353cb" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="6a72340c80ae550b726fc939cb6efbc7a7976eef" upstream="refs/heads/main" dest-branch="refs/heads/main" />
-  <project name="chromiumos/platform/ec" path="src/platform/cr50" revision="7f4dcfc953c2751fe8f7cca1da0161cf5c59dd10" upstream="refs/heads/cr50_stab" dest-branch="refs/heads/cr50_stab" groups="firmware,paygen" />
+  <project name="chromiumos/platform/ec" path="src/platform/cr50" revision="c631b7b0f2e0eb8dec7527b695487aa0b13db458" upstream="refs/heads/cr50_stab" dest-branch="refs/heads/cr50_stab" groups="firmware,paygen" />
   <project name="chromiumos/platform/ec" path="src/platform/ec" revision="9b78befac3caef7c39e9aab4082caa6f6f91480f" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk,paygen" />
   <project name="chromiumos/platform/ec" path="src/platform/ec-legacy" revision="d46f9c5a48f84848efa6ad74c35b6c65d0ef6fd4" upstream="refs/heads/ec-legacy" dest-branch="refs/heads/ec-legacy" groups="firmware,fwsdk,paygen" />
   <project name="chromiumos/platform/ec" path="src/platform/gsc-utils" revision="f03a3057013b117dd1564b42715b8d71a21d086d" upstream="refs/heads/gsc_utils" dest-branch="refs/heads/gsc_utils" groups="ti50" />
@@ -281,7 +281,7 @@
   <project name="chromiumos/third_party/libiio" path="src/third_party/libiio" revision="213eca340c157b96232242da15539e12efb2d5c9" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="5ed40f3582ebee5798406e088bd0eef68a2ee268" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/third_party/libnih" path="src/third_party/libnih" revision="c91dcdd8690b95cd2704967746a8cc775f1fae22" upstream="refs/heads/main" dest-branch="refs/heads/main" />
-  <project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="27f5be56a31c50b698e7c949202160048c3e4282" upstream="refs/heads/main" dest-branch="refs/heads/main" />
+  <project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="628f6aa4d06a5e406d7fe75aa2c2c9f405fc312a" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/third_party/libqrtr" path="src/third_party/libqrtr" revision="ba87335b33afcc0c1e0860ed41d0a98abc804184" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="chromiumos/third_party/libqrtr-glib" path="src/third_party/libqrtr-glib" revision="3cd6e47f4442346450bc34d2477d82b06df978d6" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/third_party/libtextclassifier" path="src/third_party/libtextclassifier" revision="5762590482cc1672905dda4b3d76ed2f55319497" upstream="refs/heads/master" dest-branch="refs/heads/master" />
@@ -293,7 +293,7 @@
   <project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="9be8c40ba6243b11a5ede11177da53dc4fed952c" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="chromiumos/third_party/logitech-updater" path="src/third_party/logitech-updater" revision="c2a2d51c8e897e0d6286ff408762debd64d030a7" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="a1da785c038730d7d900415945688f6fb76175f4" upstream="refs/heads/master" dest-branch="refs/heads/master" />
-  <project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="a6a11a453c8c75742284a57bf9fc9a73f0f76ae5" upstream="refs/heads/upstream/main" dest-branch="refs/heads/upstream/main" />
+  <project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="e8812a9ab0daca3c2ad5847dbb5a36ed49872fdc" upstream="refs/heads/upstream/main" dest-branch="refs/heads/upstream/main" />
   <project name="chromiumos/third_party/mesa" path="src/third_party/mesa-amd" revision="63fa20b2a6342496308d2d9bc76ac48c7b82959b" upstream="refs/heads/chromeos-amd" dest-branch="refs/heads/chromeos-amd" />
   <project name="chromiumos/third_party/mesa" path="src/third_party/mesa-arcvm" revision="8c56cd0dc34c465c9a779709be227e76498d77b5" upstream="refs/heads/chromeos-arcvm" dest-branch="refs/heads/chromeos-arcvm" />
   <project name="chromiumos/third_party/mesa" path="src/third_party/mesa-debian" revision="c36b89b82bcd270e1f9ee7d0824c9e265a39e95b" upstream="refs/heads/debian" dest-branch="refs/heads/debian" />
@@ -365,7 +365,7 @@
   <project name="copybot" path="infra/copybot" revision="5758bed5155c3d3b940a3745d29c75dbdbd681e6" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="drop" />
   </project>
-  <project name="external/github.com/bazelbuild/bazel-central-registry" path="bazel_deps/bazel-central-registry" revision="e598b95e37c863ca87e6917c26ce337d245dc018" upstream="refs/heads/upstream/main" dest-branch="refs/heads/upstream/main" groups="bazel,firmware,fwsdk,minilayout,ti50" />
+  <project name="external/github.com/bazelbuild/bazel-central-registry" path="bazel_deps/bazel-central-registry" revision="77f6a4d3ecede56a854ef010778b43900ef7932f" upstream="refs/heads/upstream/main" dest-branch="refs/heads/upstream/main" groups="bazel,firmware,fwsdk,minilayout,ti50" />
   <project name="external/github.com/google/googletest" path="src/third_party/googletest" revision="6910c9d9165801d8827d628cb72eb7ea9dd538c5" upstream="refs/tags/v1.16.0" dest-branch="refs/tags/v1.16.0" groups="firmware" />
   <project name="external/github.com/google/gtest-parallel" path="src/third_party/gtest-parallel" revision="cd488bdedc1d2cffb98201a17afc1b298b0b90f1" groups="minilayout" />
   <project name="external/github.com/google/perfetto" path="src/third_party/perfetto" revision="0894477744bf11fa1f08ca81bbceb14cd5385737" />
