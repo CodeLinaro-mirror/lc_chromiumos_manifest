@@ -79,7 +79,7 @@
   <project name="chromiumos/infra/proto" path="infra/proto" revision="f64da9b468abf3ab3fb2e825cbee9c7eda3eaa2e" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="tot" />
   </project>
-  <project name="chromiumos/infra/recipes" path="infra/recipes" revision="9d8817ec8e22081df482f3329ac5f6d479dadf11" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
+  <project name="chromiumos/infra/recipes" path="infra/recipes" revision="20f45b36a5092f9cef40cdf6df336a1bacb3febf" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
     <annotation name="branch-mode" value="drop" />
   </project>
   <project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="6b315ff614aedfbeb74b0da5b72c379c4dc3128f" upstream="refs/heads/main" dest-branch="refs/heads/main">
@@ -93,13 +93,13 @@
   </project>
   <project name="chromiumos/manifest" path="manifest" revision="048846ce7c5d5b9b20ce1c4dae93278a4894248a" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="b18ce569aa71387db79ffdeedc29b9ed6da990b0" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="86115d5bba07f1ce1966e6cfa8ccf066d980e042" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="c6fe7d042d2d08605fd4887f19771468af304e16" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="1bd4cd2284b823478d6a19e3e58efa876af4b577" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="1028a6f7c0114f4291e7084accdb7a9996d2d2b7" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="a866287931f1e527ab403f00fd2c9185b0cdb610" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/platform/assets" path="src/platform/assets" revision="a3a0fb75a8cd4178a2917574ef6371b427f9818a" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="2a2cdabe414920dba2a5550dd390d05d3b727f93" upstream="refs/heads/main" dest-branch="refs/heads/main" />
-  <project name="chromiumos/platform/bisect-kit" path="src/platform/bisect-kit" revision="c6c967e32952d7807b128bc3acbbd4741b7a027d" upstream="refs/heads/main" dest-branch="refs/heads/main" />
+  <project name="chromiumos/platform/bisect-kit" path="src/platform/bisect-kit" revision="e64d737f809990d09379154b9a3cb78b8e0bf658" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/bluetooth" path="src/platform/bluetooth" revision="64abccb0f7c2fb344142753ffdd3523c515861fa" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/bmpblk" path="src/platform/bmpblk" revision="ebb793c6131e3603e585bee2fa5c1c9b04cc92ec" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/borealis" path="src/platform/borealis-vm" revision="ece59936e8b9e5bcbdc1de971eaf440745882783" upstream="refs/heads/main" dest-branch="refs/heads/main" />
@@ -175,7 +175,7 @@
   <project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="ded182ed0453784f9c1b20cdc58a68506d458684" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="4d7165970c1dd5422399e3a9fb115d301191f4e2" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/labstation" path="src/platform/labstation" revision="60c01d2a9eb28d3b619e5f0908b0926a32a83bb7" upstream="refs/heads/main" dest-branch="refs/heads/main" />
-  <project name="chromiumos/platform/libchrome" path="src/platform/libchrome" revision="e42611f6e2d8056786c6200b0ef597ca1924aee0" upstream="refs/heads/main" dest-branch="refs/heads/main" />
+  <project name="chromiumos/platform/libchrome" path="src/platform/libchrome" revision="8eb7eea4cf2f62f20f52425e68696ea916780dde" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="cb90d8cd1d1bcafc354e135cb43815da8436105c" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/libva-fake-driver" path="src/platform/libva-fake-driver" revision="04f902b9ba9f8083b19d22e7b55591bbcaae31c0" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/microbenchmarks" path="src/platform/microbenchmarks" revision="217fc2ff67fd8ac85722fdd13c2a4f5420b20805" upstream="refs/heads/main" dest-branch="refs/heads/main" />
