@@ -93,7 +93,7 @@
   </project>
   <project name="chromiumos/manifest" path="manifest" revision="3728335cf258148c649beb008d1ef756bcea9ec0" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="b6c7493e2878bfe57a51b9c0d11f9b585b8f89f2" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="a890fd4008b147cc3d53555464ac53b9bd3dd9ed" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="d895762bf5ab39352c9cef25bde2b63a8476a6cb" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="1bd4cd2284b823478d6a19e3e58efa876af4b577" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="27150ce18b5315ca88b86bfcba1e723773f4b8b7" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="267d9681bb07e164c64a040e82053ee53125c815" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -117,12 +117,12 @@
   <project name="chromiumos/platform/crosutils" path="src/scripts" revision="f38ba5c192e01bb066b560dcdf13ea5e67e35fc8" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,firmware,labtools,minilayout,paygen,ti50" />
   <project name="chromiumos/platform/crosvm" path="src/platform/crosvm" revision="1a9ead3b4ef2f74779b1b383b6488ef2919ce584" upstream="refs/heads/chromeos" dest-branch="refs/heads/chromeos" groups="crosvm" />
   <project name="chromiumos/platform/dagwood" path="src/platform/dagwood" revision="4106f83fb481508f93f79b78ea48ad0e2c5b0139" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk,paygen" />
-  <project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="3bc84f33af09cd96fa88f7ee3418ff841d88997e" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk" />
+  <project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="dde09d4a0dac4e6d8e472fdf454cf5ad81f89723" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk" />
   <project name="chromiumos/platform/dev-util" path="src/platform/dev" revision="37ed73971c9c31d43e6a47da26e94b8f61dd2cf7" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,devserver,firmware,minilayout,paygen" />
   <project name="chromiumos/platform/dolos" path="src/platform/dolos" revision="8f6be8105c29a92b09a2032d4556dcfd23d0e0a9" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="6a72340c80ae550b726fc939cb6efbc7a7976eef" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/ec" path="src/platform/cr50" revision="17ad074ae3ba2dc6222d17cc49fa436c68cecb29" upstream="refs/heads/cr50_stab" dest-branch="refs/heads/cr50_stab" groups="firmware,paygen" />
-  <project name="chromiumos/platform/ec" path="src/platform/ec" revision="2add726a965aacb12883bd598f4a13a38406e2ed" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk,paygen" />
+  <project name="chromiumos/platform/ec" path="src/platform/ec" revision="ae35590d118928bcc2a23a9e66fb8aae3c5f5860" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk,paygen" />
   <project name="chromiumos/platform/ec" path="src/platform/ec-legacy" revision="36b35300c75d3facdf565f83335f200fdbbb5450" upstream="refs/heads/ec-legacy" dest-branch="refs/heads/ec-legacy" groups="firmware,fwsdk,paygen" />
   <project name="chromiumos/platform/ec" path="src/platform/gsc-utils" revision="5ad89b059293d0ce95632a11af9edcdb1f6fe0dc" upstream="refs/heads/gsc_utils" dest-branch="refs/heads/gsc_utils" groups="ti50" />
   <project name="chromiumos/platform/ec" path="src/platform/ish" revision="0349b538289a073973b9c06b1ebb06d8099cb572" upstream="refs/heads/ish" dest-branch="refs/heads/ish" groups="firmware" />
