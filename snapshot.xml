@@ -93,7 +93,7 @@
   </project>
   <project name="chromiumos/manifest" path="manifest" revision="3728335cf258148c649beb008d1ef756bcea9ec0" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="b6c7493e2878bfe57a51b9c0d11f9b585b8f89f2" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="d895762bf5ab39352c9cef25bde2b63a8476a6cb" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="9962261106bb397b38bab3dffc9e4b29255dda0c" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="1bd4cd2284b823478d6a19e3e58efa876af4b577" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="27150ce18b5315ca88b86bfcba1e723773f4b8b7" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="267d9681bb07e164c64a040e82053ee53125c815" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -175,7 +175,7 @@
   <project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="ded182ed0453784f9c1b20cdc58a68506d458684" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="4d7165970c1dd5422399e3a9fb115d301191f4e2" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/labstation" path="src/platform/labstation" revision="01ec39793673204ed57942e83282437a39a7f547" upstream="refs/heads/main" dest-branch="refs/heads/main" />
-  <project name="chromiumos/platform/libchrome" path="src/platform/libchrome" revision="4fdb68bd220cad98647c31e6c8a78d9c42565cb3" upstream="refs/heads/main" dest-branch="refs/heads/main" />
+  <project name="chromiumos/platform/libchrome" path="src/platform/libchrome" revision="870d0ae9aa12a8818d08378c4b52c40b41686d84" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="c37553067958b690ccd23ca9c8945ae097300a51" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/libva-fake-driver" path="src/platform/libva-fake-driver" revision="04f902b9ba9f8083b19d22e7b55591bbcaae31c0" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/microbenchmarks" path="src/platform/microbenchmarks" revision="217fc2ff67fd8ac85722fdd13c2a4f5420b20805" upstream="refs/heads/main" dest-branch="refs/heads/main" />
@@ -193,7 +193,7 @@
   <project name="chromiumos/platform/satlab" path="src/platform/satlab" revision="d928e277bbe283538a0ac5b4716d4f6b1f50ba15" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="notdefault,satlab" />
   <project name="chromiumos/platform/spdm" path="src/platform/spdm" revision="801e6cb26d7a455a20efbbef698da5e4a5e310ab" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/tast" path="src/platform/tast" revision="88803a2b8446c6d572e668ef090c4973ae9e4e87" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="minilayout,paygen,ti50" />
-  <project name="chromiumos/platform/tast-tests" path="src/platform/tast-tests" revision="31a834f27ed1550110c7ddd5547f9b4100f070a3" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="minilayout,paygen,ti50" />
+  <project name="chromiumos/platform/tast-tests" path="src/platform/tast-tests" revision="3188522a3227261f6895f675e67709c46ce93ffd" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="minilayout,paygen,ti50" />
   <project name="chromiumos/platform/tauto" path="src/platform/tauto" revision="76e63bd377b8b6ac067bf10040e65a0f21d3db3c" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/tflite" path="src/platform/tflite" revision="50ecddc2b1954622cfb7fef84f2b61539f9682f7" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/touch_firmware_test" path="src/platform/touch_firmware_test" revision="82215f40ffd2f04f7566e2b5bef3871cbd25cd04" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware" />
@@ -226,7 +226,7 @@
   <project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="firmware" />
   <project name="chromiumos/third_party/clspv" path="src/third_party/clspv" revision="8210f9dad6c20ab6bc1a9e91dd311246b192318b" />
   <project name="chromiumos/third_party/clvk" path="src/third_party/clvk" revision="7c1b20b75127e0868cdf38b81663b185a87c6c0d" />
-  <project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="dda77d37214b71a19228c84bcd9ac09109f18f45" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk" />
+  <project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="bc32a39c567ff131a142cb2946cc3a585477ff47" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk" />
   <project name="chromiumos/third_party/cros-adapta" path="src/third_party/cros-adapta" revision="fe8ed49919cd9f6ce0efe86813a388d90e7314b6" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="chromiumos/third_party/cryptoc" path="src/third_party/cryptoc" revision="0dd679081b9c8bfa2583d74e3a17a413709ea362" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk" />
   <project name="chromiumos/third_party/cups" path="src/third_party/cups" revision="a6e02815f8148352ce5a6df2a04073469184e268" upstream="refs/heads/chromeos-2.4" dest-branch="refs/heads/chromeos-2.4" />
