@@ -93,7 +93,7 @@
   </project>
   <project name="chromiumos/manifest" path="manifest" revision="860da43d80d18778bde328b259243875ad361087" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="100effbf1606a15cb6351bc6d2ce5dbee510f0e8" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="cf554619470dae9edd05ffb94705d00680a3495e" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="d8266ff5c3673e774b9e5b89fd65acfea96f53ec" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="07aa4860eabd89ae6ccfa54b46482b5623e98129" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="95959c49af51ccbc940151d9e966c5404d3b62a4" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="02e6bbb5daad023b5ec6cc420370b2c43e154a8d" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -258,13 +258,13 @@
     <annotation name="bisection-branch" value="refs/heads/merge/continuous/kernelupstream-bisect-6.12-rc5_6.12" />
   </project>
   <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/kcam" revision="0703fd1924c7c2dcd8bc0adcdde4180bf1c1442b" upstream="refs/heads/kcam-6.1" dest-branch="refs/heads/kcam-6.1" groups="kcam,notdefault" />
-  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.4" revision="64ef3accf10f93dde8a35687d993bb60addfcfd9" upstream="refs/heads/chromeos-5.4" dest-branch="refs/heads/chromeos-5.4" />
-  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.10" revision="041ce12cb4c2d2064ce1e52db9b88e5707f77ed5" upstream="refs/heads/chromeos-5.10" dest-branch="refs/heads/chromeos-5.10" />
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.4" revision="da6a8d6e28702338e06d13bf5efb8288821d487c" upstream="refs/heads/chromeos-5.4" dest-branch="refs/heads/chromeos-5.4" />
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.10" revision="c8afad42e651918e7277c81ed6a23023e48e5761" upstream="refs/heads/chromeos-5.10" dest-branch="refs/heads/chromeos-5.10" />
   <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.10-arcvm" revision="41118558e39ad4996d7172883158bf5bd6afcc54" upstream="refs/heads/chromeos-5.10-arcvm" dest-branch="refs/heads/chromeos-5.10-arcvm" />
-  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.15" revision="6ccddb36c40fba168484e401c2e184393b2cfafb" upstream="refs/heads/chromeos-5.15" dest-branch="refs/heads/chromeos-5.15" />
-  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.1" revision="e2d429338ffa976942aba4887d0b8a7e07dc0267" upstream="refs/heads/chromeos-6.1" dest-branch="refs/heads/chromeos-6.1" />
-  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.6" revision="bc7e7dbe38338445521fa7c0b73fc7f2701cea3b" upstream="refs/heads/chromeos-6.6" dest-branch="refs/heads/chromeos-6.6" />
-  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.12" revision="a581444b7f37dd6a37fa8c93d51c6f08ed6e3368" upstream="refs/heads/chromeos-6.12" dest-branch="refs/heads/chromeos-6.12" />
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.15" revision="38e3a795e37d716b207cfba4044368123897addf" upstream="refs/heads/chromeos-5.15" dest-branch="refs/heads/chromeos-5.15" />
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.1" revision="59d24df86a82abeee4d0254403127ef14ce78f59" upstream="refs/heads/chromeos-6.1" dest-branch="refs/heads/chromeos-6.1" />
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.6" revision="1bd06c306854dd4f067e1207e4ac25bb205ca46f" upstream="refs/heads/chromeos-6.6" dest-branch="refs/heads/chromeos-6.6" />
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v6.12" revision="51f2727a01219375781e8912f994701b7c3bb36c" upstream="refs/heads/chromeos-6.12" dest-branch="refs/heads/chromeos-6.12" />
   <project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="87b865f44d94d1ee2d29a68eb26139d304708354" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="chromiumos/third_party/labpack" path="src/third_party/labpack/files" revision="0a614f09f19a1a4f3e432df93d0373516cd5914a" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="labtools" />
   <project name="chromiumos/third_party/lexmark-fax-pnh" path="src/third_party/lexmark-fax-pnh" revision="d80cce020cf6bd6c29c4008beeffd9635a82173d" upstream="refs/heads/master" dest-branch="refs/heads/master" />
