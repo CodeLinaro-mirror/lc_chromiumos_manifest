@@ -34,7 +34,7 @@
   <project name="aosp/platform/system/libfmq" path="src/aosp/system/libfmq" revision="1d72513a44e4cb856c1cc70f95f9b1e88b1b4a78" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="aosp/platform/system/libhidl" path="src/aosp/system/libhidl" revision="49005468bfa1d0c3ed69d8a61b8d0fbaafd1e836" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="aosp/platform/system/logging" path="src/aosp/system/logging" revision="2e909ccdf779939e5caa5ab52851f38f22037ae9" upstream="refs/heads/master" dest-branch="refs/heads/master" />
-  <project name="apps/libapps" path="src/third_party/libapps" revision="617b74be7be0d9bcf09a28641a8325557c238532" upstream="refs/heads/main" dest-branch="refs/heads/main">
+  <project name="apps/libapps" path="src/third_party/libapps" revision="a1c989a712f5b15987a8815ac9ba4cf21f6e8eab" upstream="refs/heads/main" dest-branch="refs/heads/main">
     <annotation name="branch-mode" value="pin" />
   </project>
   <project name="breakpad/breakpad" path="src/third_party/breakpad" revision="6598c9c33fc02da7805401f3b0f1a733e6a24071" />
@@ -93,7 +93,7 @@
   </project>
   <project name="chromiumos/manifest" path="manifest" revision="0c330a9fee6c85eb9f5516bd768456f96466e266" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="7f781646300be78872204254780f1e657d18d7d3" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,minilayout,paygen" />
-  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="f6265ea4ad97f305c8923a263e3343025c0e8b90" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
+  <project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="c2a3ed06272ddf6d67cb6741206160030cbf4f48" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen,ti50" sync-c="true" />
   <project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="45bec309fad5b6d7d9e7433fa66e7a9fb25893bb" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="1f224c96e60033169d64b7e6c813b43fac413c4c" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
   <project name="chromiumos/overlays/toolchains" path="src/third_party/toolchains-overlay" revision="02e6bbb5daad023b5ec6cc420370b2c43e154a8d" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,labtools,minilayout,paygen" />
@@ -122,7 +122,7 @@
   <project name="chromiumos/platform/dolos" path="src/platform/dolos" revision="8f6be8105c29a92b09a2032d4556dcfd23d0e0a9" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="6a72340c80ae550b726fc939cb6efbc7a7976eef" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/ec" path="src/platform/cr50" revision="73c521f26f47c23b66acd7bade9e36914392440a" upstream="refs/heads/cr50_stab" dest-branch="refs/heads/cr50_stab" groups="firmware,paygen" />
-  <project name="chromiumos/platform/ec" path="src/platform/ec" revision="6e6def12f727d1964ef553025fc1ee6a64f5d30c" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk,paygen" />
+  <project name="chromiumos/platform/ec" path="src/platform/ec" revision="b5430f66fc8f1f7d373a4c7977754d980dfed482" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="firmware,fwsdk,paygen" />
   <project name="chromiumos/platform/ec" path="src/platform/ec-legacy" revision="2ee22a06a245f926402572431bb77a3c71672117" upstream="refs/heads/ec-legacy" dest-branch="refs/heads/ec-legacy" groups="firmware,fwsdk,paygen" />
   <project name="chromiumos/platform/ec" path="src/platform/gsc-utils" revision="2f28edb95eb0723c7097abd32c884d74f0e35c29" upstream="refs/heads/gsc_utils" dest-branch="refs/heads/gsc_utils" groups="ti50" />
   <project name="chromiumos/platform/ec" path="src/platform/ish" revision="0349b538289a073973b9c06b1ebb06d8099cb572" upstream="refs/heads/ish" dest-branch="refs/heads/ish" groups="firmware" />
@@ -161,7 +161,7 @@
   <project name="chromiumos/platform/firmweaver" path="src/platform/firmweaver" revision="868277cf67b39e861e8d8673583f099b240f8f8f" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="62b9fe45c49d46666f53afd5e00b7514dc110c83" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/fw-testing-configs" path="src/platform/fw-testing-configs" revision="f009c59ac0f40606c197aa748571aab1379c8923" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools,devserver,firmware,labtools,paygen" />
-  <project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="2c876244f1895119a498c98287a98de282d15d63" upstream="refs/heads/main" dest-branch="refs/heads/main" />
+  <project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="46c147a4a5ea87bd267c4c67e2982bdf4fb8f7a6" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/glbench" path="src/platform/glbench" revision="e99bc684272bffd68b06c998e272531c9c84330f" upstream="refs/heads/main" dest-branch="refs/heads/main" />
   <project name="chromiumos/platform/glbench" path="src/platform/glbench-debian" revision="bc4b2c91f8d51ec636dc5f8c6feeec607412b30a" upstream="refs/heads/debian" dest-branch="refs/heads/debian" groups="crostini,notdefault" />
   <project name="chromiumos/platform/graphics" path="src/platform/graphics" revision="21afdcd0d648b1674433779bea1ad77417309585" upstream="refs/heads/main" dest-branch="refs/heads/main" />
