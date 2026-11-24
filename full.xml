@@ -848,8 +848,6 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
   <project path="src/aosp/external/uwb/upstream"
            name="aosp/platform/external/uwb"
            revision="refs/heads/upstream/master" />
-  <project path="src/aosp/frameworks/ml"
-           name="aosp/platform/frameworks/ml" />
   <project path="src/aosp/frameworks/native"
            name="aosp/platform/frameworks/native"
            revision="refs/heads/master" />
@@ -859,28 +857,13 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
            groups="notdefault,bluetooth,bazel">
     <annotation name="branch-mode" value="pin" />
   </project>
-  <project path="src/aosp/hardware/interfaces/neuralnetworks"
-           name="aosp/platform/hardware/interfaces/neuralnetworks"
-           revision="refs/heads/master" />
   <project path="src/aosp/hardware/nxp/uwb"
            name="aosp/platform/hardware/nxp/uwb" />
   <project path="src/aosp/packages/modules/Bluetooth/local"
            name="aosp/platform/packages/modules/Bluetooth"
            groups="notdefault,bluetooth,bazel" />
-  <project path="src/aosp/system/core/base"
-           name="aosp/platform/system/core/base"
-           revision="refs/heads/master" />
-  <project path="src/aosp/system/core/libbacktrace"
-           name="aosp/platform/system/core/libbacktrace"
-           revision="refs/heads/master" />
   <project path="src/aosp/system/core/libcutils"
            name="aosp/platform/system/core/libcutils"
-           revision="refs/heads/master" />
-  <project path="src/aosp/system/core/liblog"
-           name="aosp/platform/system/core/liblog"
-           revision="refs/heads/master" />
-  <project path="src/aosp/system/core/libutils"
-           name="aosp/platform/system/core/libutils"
            revision="refs/heads/master" />
   <project path="src/aosp/system/keymaster"
            remote="aosp"
@@ -898,12 +881,6 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
   <project path="src/aosp/system/libcppbor"
            remote="aosp"
            name="platform/system/libcppbor"
-           revision="refs/heads/master" />
-  <project path="src/aosp/system/libfmq"
-           name="aosp/platform/system/libfmq"
-           revision="refs/heads/master" />
-  <project path="src/aosp/system/libhidl"
-           name="aosp/platform/system/libhidl"
            revision="refs/heads/master" />
   <project path="src/aosp/system/libsync"
            name="aosp/platform/system/core/libsync"
